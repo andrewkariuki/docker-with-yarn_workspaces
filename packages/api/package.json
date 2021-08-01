@@ -1,5 +1,5 @@
 {
-  "name": "@NodeDocker/api",
+  "name": "@nodedocker/api",
   "version": "1.0.0",
   "description": "Api",
   "main": "dist/index.js",

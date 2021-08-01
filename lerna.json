@@ -11,10 +11,6 @@
       "message": "chore(release): publish %s",
       "allowBranch": "ruut",
       "createRelease": "github"
-    },
-    "publish": {
-      "conventionalCommits": true,
-      "message": "chore(release): publish %s"
     }
   }
 }

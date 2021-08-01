@@ -1,10 +1,13 @@
 {
-  "name": "NodeDocker",
+  "name": "nodedocker",
   "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
     ]
+  },
+  "scripts": {
+    "release": "lerna version"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
