@@ -8,7 +8,9 @@
   "command": {
     "version": {
       "conventionalCommits": true,
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish %s",
+      "allowBranch": "ruut",
+      "createRelease": "github"
     },
     "publish": {
       "conventionalCommits": true,
