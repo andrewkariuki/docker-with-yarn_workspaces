@@ -1,6 +1,6 @@
 FROM node as base
 
-WORKDIR /NodeDocker
+WORKDIR /nodedocker
 
 ### BUILDER ###
 FROM base AS builder
@@ -12,25 +12,25 @@ COPY packages/api/ ./packages/api/
 
 RUN yarn install --pure-lockfile --non-interactive
 
-WORKDIR /NodeDocker/packages/api
+WORKDIR /nodedocker/packages/api
 RUN yarn build
 
 ### RUNNER ###
 FROM base
 
-WORKDIR /NodeDocker
+WORKDIR /nodedocker
 
 COPY *.json .
 COPY yarn.lock .
 
-COPY --from=builder /packages/api/*.json ./packages/api/
-COPY --from=builder /app/packages/backend/dist ./dist/
+COPY --from=builder /nodedocker/packages/api/*.json ./packages/api/
+COPY --from=builder /nodedocker/packages/api/dist ./packages/api/dist/
 
 ENV NODE_ENV production
 
 RUN yarn install --pure-lockfile --non-interactive --production
 
-WORKDIR /NodeDocker/packages/api
+WORKDIR /nodedocker/packages/api
 
-EXPOSE 80
+EXPOSE 4000
 CMD ["node", "dist/index.js"]
