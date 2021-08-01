@@ -2,11 +2,16 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.0",
+  "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
     "version": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish %s"
+    },
+    "publish": {
+      "conventionalCommits": true,
       "message": "chore(release): publish %s"
     }
   }
