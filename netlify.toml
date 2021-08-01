@@ -1,8 +1,9 @@
 # example netlify.toml
 [build]
-  command = "cd packages/web/ && yarn run build"
+  base = "packages/web/"
+  command = "yarn run build"
   functions = "netlify/functions"
-  publish = "packages/web"
+  publish = "dist"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
