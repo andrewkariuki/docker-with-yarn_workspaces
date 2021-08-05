@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Installing node
         uses: actions/setup-node@v1
+        with:
+          node-version: '14.17.1'
       - name: Install React Native CLI
         run: |
           yarn global add react-native-cli
