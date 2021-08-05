@@ -1,0 +1,31 @@
+name: Test adhoc
+
+on:
+  push:
+    branches:
+      - ruut
+  pull_request:
+    branches:
+      - ruut
+
+jobs:
+  test-adhoc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Getting the repo
+        uses: actions/checkout@v2
+      - name: Installing node
+        uses: actions/setup-node@v1
+      - name: Install React Native CLI
+        run: |
+          yarn global add react-native-cli
+      - name: Install yarn dependencies
+        run: |
+          yarn install
+      - name: Running test
+        uses: ./
+        with:
+          working-directory: packages/app
+          run: |
+            yarn lint
+            yarn test
