@@ -4,6 +4,12 @@
   "workspaces": {
     "packages": [
       "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/@react-native-community/cli-platform-android",
+      "**/@react-native-community/cli-platform-android/**"
     ]
   },
   "scripts": {
