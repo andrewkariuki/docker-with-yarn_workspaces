@@ -1,5 +1,7 @@
 <div align="center">
-    Yarn workspaces (React, React Native, Express) with simple CI/CD
+    <h2>
+         Yarn workspaces (React, React Native, Express) with simple CI/CD
+    </h2>
 </div>
 <p align="center">
     <i>
