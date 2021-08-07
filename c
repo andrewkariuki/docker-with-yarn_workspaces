@@ -1,0 +1,246 @@
+[33mcommit d32ecbddc4da0617213c135d48acabba8a096568[m[33m ([m[1;36mHEAD -> [m[1;32mruut[m[33m)[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 22:46:25 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit dfccb66fc67e92cce7d62792a210af5b29b64efc[m[33m ([m[1;31morigin/ruut[m[33m)[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 22:27:57 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit cbaa70de282baeb4c85a06b3320fd814cfed258b[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 22:17:37 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit b1c25117d9c3542623e08e524f7abe11a6dc781a[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 21:24:24 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit f72910a6eb14b8f6115bef2e8cd5a53a1f2f215a[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 21:04:07 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit f2d3145d6c5f268321621362a7683d265a7283fb[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 20:41:11 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit afc7bd7aa1df43b9bfae883624788b9f7cb9924c[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 20:10:16 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit 4952610f6572436665789350bdeed0cc485ed7c2[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 19:44:40 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit c81f208554968427e52720cfc159f756a4632f9e[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 19:32:37 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit 0749b0bc6f2468f1f8a4fc1ca9b3ebe9ee1d2021[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 19:14:25 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit e0b6aa35080735574886cbc632b09c32e2f58d1e[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 19:04:53 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit c2b440d4f253b1ab5943beaaadfaa1bd7eecceeb[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 18:52:25 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit fdbc33718bd68dcd694f1e884a21c8b2c44088cd[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 17:49:32 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit 011e7d073cb13c63df8f9819b0e2880eb80b3d7f[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 17:37:15 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit 0c441c5f5a85072a6de2e4ffccaff3e7bb32f0fb[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 16:00:23 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit ba97ec5ac990f6ff03b982ee4f9673a7bb95de4f[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sat Aug 7 15:57:47 2021 +0300
+
+    chore(android): try android build
+
+[33mcommit 56567aebaefee7f71e35ed210afc3281712bbf40[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Fri Aug 6 01:32:17 2021 +0300
+
+    chore(github actions): fix Error: 11:1 error Delete · prettier/prettier
+
+[33mcommit 200e763e2a26134fefcd67be829e5ab0390ba56c[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Fri Aug 6 01:24:29 2021 +0300
+
+    chore(github actions): update working directory
+
+[33mcommit bdeb0b3483d4d58ded1485ee92cba770cd674fec[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Fri Aug 6 01:14:47 2021 +0300
+
+    chore(github actions): upgrade node version to v14.17.1
+
+[33mcommit 785f35c6bded26eeae40dfe2981a34a59df0e0e7[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Fri Aug 6 01:09:19 2021 +0300
+
+    chore(github actions): test github actions with test adhoc for react native
+
+[33mcommit 10c18f0b0c190612acb9126b49bbf1154230c649[m
+Author: Andrew Kariuki <andrew4kariuki@gmail.com>
+Date:   Fri Aug 6 00:50:37 2021 +0300
+
+    Update README.md
+
+[33mcommit 37529c34b46a2e312fd58dfe641f0a596300d473[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Fri Aug 6 00:48:23 2021 +0300
+
+    chore(react-native): ensure react natives functionality in yarn workspaces
+
+[33mcommit 46a38531f477bed35295484f3e418702f84721df[m
+Merge: 25b9245 ae55e2f
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Mon Aug 2 00:31:41 2021 +0300
+
+    Merge branch 'ruut' of github.com:andrewkariuki/docker-with-yarn_workspaces into ruut
+
+[33mcommit 25b9245f78cdfcdb441cd78e9887ca8662c16661[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Mon Aug 2 00:30:20 2021 +0300
+
+    add app
+
+[33mcommit 0f395f146c6a2d854d468bb29f21039d47d424be[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Mon Aug 2 00:29:30 2021 +0300
+
+    add app
+
+[33mcommit adc9524d5f4666cc1a9e959f5c9c0d1c097e4173[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 22:30:21 2021 +0300
+
+    trying lerna version
+
+[33mcommit 13aa4fb9d690603d244131c9adee290325570018[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 22:29:14 2021 +0300
+
+    trying lerna version
+
+[33mcommit 30919ac3eac116039bb90e7c9078c93a722f5f72[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 21:43:29 2021 +0300
+
+    trying lerna version
+
+[33mcommit 409b28579b7d01205fd4892926edd7061ce747fb[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 21:15:01 2021 +0300
+
+    trying lerna version
+
+[33mcommit ae55e2ff592742321fff1fe451a26a00c6bb56e9[m
+Author: Andrew Kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 20:47:22 2021 +0300
+
+    Update README.md
+
+[33mcommit 88eb94c68ceb4fefcb5612f15e9341819b173d4c[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 20:28:00 2021 +0300
+
+    Improve on netlify
+
+[33mcommit 7f02b177a00fd15381164348c448ca216fd4521b[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 20:20:25 2021 +0300
+
+    Improve on netlify
+
+[33mcommit a2e6da6de43446b5e9b3bae9c6501ce52d57ac15[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 20:12:52 2021 +0300
+
+    Improve on netlify
+
+[33mcommit 527e4f63eb6dcb73d14833cced6538f52f948354[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 19:55:10 2021 +0300
+
+    Improve on netlify
+
+[33mcommit be6e446414d4bc1d7f668864c71a7a33d593e53f[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 19:14:57 2021 +0300
+
+    netlify ci/cd
+
+[33mcommit 9c3c8a8a018fd957ca52013a30cb86ebb6fbf88e[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 18:26:33 2021 +0300
+
+    dockerfile build successful
+
+[33mcommit fb6b25b82c30e4e8a2b35aa3abbded6f2a0ef933[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 16:55:12 2021 +0300
+
+    dockerfile
+
+[33mcommit 6edcf26b1a9302bc4a6da8eedabc1b8594f2c863[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 15:41:05 2021 +0300
+
+    wip
+
+[33mcommit 0f33e9eacd6e94eb478855b6400c51c7b7723e85[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 12:49:27 2021 +0300
+
+    Project init
+
+[33mcommit db727d0bdb6c095c9787e56d23e8e46ff867b662[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 12:46:53 2021 +0300
+
+    Project init
+
+[33mcommit e9fc25fa672daa20ca9aa9284052fc2b5c4ac3a5[m
+Author: andrew kariuki <andrew4kariuki@gmail.com>
+Date:   Sun Aug 1 12:14:55 2021 +0300
+
+    Project init
