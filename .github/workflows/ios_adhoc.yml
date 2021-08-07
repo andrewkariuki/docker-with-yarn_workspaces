@@ -39,8 +39,8 @@ jobs:
       - name: Build ios
         uses: yukiarrr/ios-build-action@v1.3.2
         with:
-          project-path: ios/react_native_actions.xcodeproj
-          workspace-path: ios/react_native_actions.xcworkspace
+          project-path: packages/app/ios/react_native_actions.xcodeproj
+          workspace-path: packages/app/ios/react_native_actions.xcworkspace
           team-id: ${{ secrets.TEAM_ID }}
           p12-base64: ${{ secrets.P12_BASE64 }}
           mobileprovision-base64: ${{ secrets.MOBILE_PROVISION_BASE64 }}
