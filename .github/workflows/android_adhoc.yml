@@ -1,0 +1,28 @@
+name: Build Android adhoc
+
+on:
+  workflow_dispatch:
+    inputs:
+      comments:
+        description: 'Comments'
+        required: true
+        default: 'Manual build Actions'
+
+obs:
+  build-android-adhoc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Getting the repo
+        uses: actions/checkout@v2
+      - name: Installing node
+        uses: actions/setup-node@v1
+      - name: Install React Native CLI
+        run: |
+          yarn global add react-native-cli
+      - name: Install yarn dependencies
+        run: |
+          yarn install
+      - name: Building bundle
+        working-directory: ./packages/app
+        run: |
+          yarn react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
