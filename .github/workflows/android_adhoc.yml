@@ -1,4 +1,4 @@
-name: Build Android adhoc
+name: Build Android Ad Hoc
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
         default: 'Manual build Actions'
 
 jobs:
-  build-android-adhoc:
+  build-android-ad-hoc:
     runs-on: ubuntu-latest
     steps:
       - name: Getting the repo
@@ -46,13 +46,15 @@ jobs:
           path: packages/app/android/app/build/outputs/apk/release/app-release.apk
 
   upload-android:
-    needs: build-android-adhoc
+    needs: build-android-ad-hoc
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
           name: artifact
+      - name: Display structure of downloaded files
+        run: ls -R
       - name: upload artifact to Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1
         with:

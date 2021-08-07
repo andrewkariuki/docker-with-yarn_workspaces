@@ -1,4 +1,4 @@
-name: Test adhoc
+name: Test Ad Hoc
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - ruut
 
 jobs:
-  test-adhoc:
+  test-ad-hoc:
     runs-on: ubuntu-latest
     steps:
       - name: Getting the repo
