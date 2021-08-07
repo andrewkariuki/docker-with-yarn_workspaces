@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: artifact
-          path: packages/app/android/app/build/outputs/apk/staging/app-staging.apk
+          path: packages/app/android/app/build/outputs/apk/release/app-release.apk
 
   upload-android:
     needs: build-android-adhoc
@@ -59,4 +59,4 @@ jobs:
           appId: ${{secrets.FIREBASE_APP_ID_ANDROID}}
           token: ${{secrets.FIREBASE_TOKEN}}
           groups: android_testers
-          file: app-staging.apk
+          file: app-release.apk
