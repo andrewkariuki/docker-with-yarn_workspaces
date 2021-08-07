@@ -27,5 +27,5 @@ jobs:
       - name: Running test
         working-directory: ./packages/app
         run: |
-          yarn lint
+          yarn lint --fix
           yarn test
