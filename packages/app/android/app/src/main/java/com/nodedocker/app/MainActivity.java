@@ -1,4 +1,4 @@
-package com.app;
+package com.nodedocker.app;
 
 import com.facebook.react.ReactActivity;
 
