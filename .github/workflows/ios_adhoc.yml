@@ -23,12 +23,15 @@ jobs:
         run: |
           yarn install
       - name: Building bundle
+        working-directory: ./packages/app
         run: |
           yarn react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle --assets-dest ios
       - name: Install pod dependencies
+        working-directory: ./packages/app
         run: |
           cd ios && pod install
       - name: Update build number
+        working-directory: ./packages/app
         run: |
           cd ios
           agvtool new-marketing-version 1.0.0
