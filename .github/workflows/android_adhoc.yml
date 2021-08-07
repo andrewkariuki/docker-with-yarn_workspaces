@@ -28,3 +28,19 @@ jobs:
         working-directory: ./packages/app
         run: |
           npx mkdirp android/app/src/main/assets/ && yarn react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+      - name: Build android
+        working-directory: ./packages/app
+        env:
+          KEYSTORE_ALIAS_PASSPHRASE: ${{ secrets.MYAPP_UPLOAD_KEY_PASSWORD }}
+          KEYSTORE_ALIAS: ${{ secrets.MYAPP_UPLOAD_KEY_ALIAS }}
+          KEYSTORE_PASSPHRASE: ${{ secrets.MYAPP_UPLOAD_STORE_PASSWORD }}
+        run: |
+          export VERSION_CODE=${{ github.run_number }}
+          export VERSION_NAME=1.0.${{ github.run_number }}
+          echo ${{ secrets.MYAPP_UPLOAD_KEYSTORE }} | base64 --decode > android/app/my-upload-key.keystore
+          cd android && ./gradlew -PversCode=$VERSION_CODE -PversName=$VERSION_NAME :app:assembleStaging
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifact
+          path: packages/app/android/app/build/outputs/apk/staging/app-staging.apk
