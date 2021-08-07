@@ -8,7 +8,7 @@ on:
         required: true
         default: 'Manual build Actions'
 
-obs:
+jobs:
   build-android-adhoc:
     runs-on: ubuntu-latest
     steps:
